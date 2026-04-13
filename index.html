@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dorssel Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<div class="custom-scrollbar" id="customScrollbar">
+  <button class="custom-scrollbar-btn" id="scrollUp">
+    <svg viewBox="0 0 6 6"><path d="M3 1L6 5H0Z"/></svg>
+  </button>
+  <div class="custom-scrollbar-track" id="scrollTrack">
+    <div class="custom-scrollbar-thumb" id="scrollThumb"></div>
+  </div>
+  <button class="custom-scrollbar-btn" id="scrollDown">
+    <svg viewBox="0 0 6 6"><path d="M3 5L0 1H6Z"/></svg>
+  </button>
+</div>
+
+<body>
+  <header class="navbar">
+  <div class="container navbar-inner">
+    <a href="#home" class="logo">Dorssel</a>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#works">My works</a></li>
+      <li><a href="#clients">My clients</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" id="mobileMenuClose">
+    <i class="fa-solid fa-xmark"></i>
+  </button>
+  <ul class="mobile-nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#works">My works</a></li>
+    <li><a href="#clients">My clients</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <main>
+    <section class="container hero" id="home">
+      <div class="hero-left">
+        <p class="eyebrow">Web Developer</p>
+        <h1>SELIIN-DORIS<br>TŠINJAKOV</h1>
+
+        <p class="description">
+          Registered nurse by day, part-time code addict at night<br>
+          Front-End Developer in the making | HTML · CSS · JavaScript<br>
+          UI/UX & Figma | Diving into Python & Backend
+        </p>
+
+        <div class="divider"></div>
+
+        <div class="social-row">
+  <a href="cv.pdf" target="_blank" class="cv-btn">VIEW CV ></a>
+
+  <div class="social-icons">
+    <a href="https://www.instagram.com/sdoriiis/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/seliin-doris-t%C5%A1injakov-66376237a/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+    <a href="https://www.youtube.com/@Dor_Sel" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+      <i class="fa-brands fa-youtube"></i>
+    </a>
+    <a href="https://www.reddit.com/user/Interesting_Rate_161/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Reddit">
+      <i class="fa-brands fa-reddit-alien"></i>
+    </a>
+    <a href="https://github.com/Seliin-Doris" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
+</div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-icon">26</div>
+            <div class="stat-text">Age</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-icon">2</div>
+            <div class="stat-text">Projects<br>worked on</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-icon">0</div>
+            <div class="stat-text">Projects<br>deployed</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-icon">0</div>
+            <div class="stat-text">Years of<br>experience</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="image-wrap">
+          <svg class="orbit-svg orbit-svg-1" viewBox="0 0 100 100" aria-hidden="true">
+            <circle class="orbit-stroke orbit-stroke-1" cx="50" cy="50" r="48"></circle>
+          </svg>
+
+          <svg class="orbit-svg orbit-svg-2" viewBox="0 0 100 100" aria-hidden="true">
+            <circle class="orbit-stroke orbit-stroke-2" cx="50" cy="50" r="43"></circle>
+          </svg>
+
+          <img class="profile-image" src="5.webp" alt="Profile image">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="education-title">
+          <i class="fa-solid fa-user-graduate"></i>
+          <span>Education</span>
+        </div>
+
+        <div class="education-grid">
+          <article class="education-card">
+            <h3>High school certificate</h3>
+            <p>01.09.2016 - 18.06.2019</p>
+            <br>
+            <p>Tallinn Old Town Adult Gymnasium</p>
+          </article>
+
+          <article class="education-card">
+            <h3>College</h3>
+            <p>01.09.2019 - 27.02.2023</p>
+            <br>
+            <p>Tallinn Health University of Applied Scienses</p>
+            <br>
+            <p>Chair of nursing</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="works">
+      <div class="container">
+        <h2 class="section-title">MY WORKS</h2>
+
+        <div class="works-carousel" id="worksCarousel">
+  <div class="works-stack" id="worksStack">
+    <div class="work-card" style="--i:0"><img src="work1.png" alt="Work 1"></div>
+<div class="work-card" style="--i:1"><img src="work2.png" alt="Work 2"></div>
+<div class="work-card" style="--i:2"><img src="work3.png" alt="Work 3"></div>
+<div class="work-card" style="--i:3"><img src="work4.png" alt="Work 4"></div>
+<div class="work-card" style="--i:4"><img src="work5.png" alt="Work 5"></div>
+<div class="work-card" style="--i:5"><img src="work6.png" alt="Work 6"></div>
+  </div>
+</div>
+    </section>
+
+    <section class="section" id="clients">
+      <div class="container">
+        <div class="lined-heading">
+          <h2>MY <span class="pink">CLIENTS</span></h2>
+        </div>
+
+        <div class="clients-list">
+          <article class="client-card">
+            <div class="client-left">
+              <div class="client-icon"><i class="fa-solid fa-car"></i></div>
+              <h3 class="client-name">Awesome Carshop Inc</h3>
+              <div class="pill">UI / UX</div>
+              <div class="pill">Frontend/backend development</div>
+            </div>
+
+            <div class="client-text">
+              <p>
+                faucibus tincidunt tincidunt non, Quisque Donec placerat. fringilla sit ipsum faucibus
+                Nunc tincidunt vitae tincidunt quam amet, vitae malesuada vel enim. id
+              </p>
+              <br>
+              <p>
+                Libero, felis, ac volutpat Vestibulum dui. volutpat viverra Praesent convallis.
+                eget viverra sodales. non, Lorem maximus sodales. sit at, volutpat Lorem nisi
+              </p>
+            </div>
+          </article>
+
+          <article class="client-card">
+            <div class="client-left">
+              <div class="client-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+              <h3 class="client-name">Foodmarket Ltd</h3>
+              <div class="pill">UI / UX</div>
+              <div class="pill">Frontend/backend development</div>
+            </div>
+
+            <div class="client-text">
+              <p>
+                faucibus tincidunt tincidunt non, Quisque Donec placerat. fringilla sit ipsum faucibus
+                Nunc tincidunt vitae tincidunt quam amet, vitae malesuada vel enim. id
+              </p>
+              <br>
+              <p>
+                Libero, felis, ac volutpat Vestibulum dui. volutpat viverra Praesent convallis.
+                eget viverra sodales. non, Lorem maximus sodales. sit at, volutpat Lorem nisi
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact-preview">
+      <div class="container talk-wrap">
+        <div class="talk-line"></div>
+        <h2 class="section-title"><span class="glow-text">LET'S <span class="pink">TALK</span></span></h2>
+        <p>
+          What led you here? What are you looking for? I would love to hear from you over a virtual coffee chat!
+        </p>
+
+        <a href="contact.html" class="contact-btn">
+          <span>Let's get in touch</span>
+          <i class="fa-solid fa-paper-plane"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+  <div class="container footer-inner">
+    <p class="copyright">© 2026, Seliin-Doris Tšinjakov</p>
+
+    <div class="footer-right">
+      <p class="find-me">Find me on</p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/sdoriiis/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/seliin-doris-t%C5%A1injakov-66376237a/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://www.youtube.com/@Dor_Sel" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+
+        <a href="https://www.reddit.com/user/Interesting_Rate_161/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Reddit">
+          <i class="fa-brands fa-reddit-alien"></i>
+        </a>
+
+        <a href="https://github.com/Seliin-Doris" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Dorssel</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<div class="custom-scrollbar" id="customScrollbar">
+  <button class="custom-scrollbar-btn" id="scrollUp">
+    <svg viewBox="0 0 6 6"><path d="M3 1L6 5H0Z"/></svg>
+  </button>
+  <div class="custom-scrollbar-track" id="scrollTrack">
+    <div class="custom-scrollbar-thumb" id="scrollThumb"></div>
+  </div>
+  <button class="custom-scrollbar-btn" id="scrollDown">
+    <svg viewBox="0 0 6 6"><path d="M3 5L0 1H6Z"/></svg>
+  </button>
+</div>
+
+<body class="contact">
+  <header class="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html#home" class="logo">Dorssel</a>
+
+    <ul class="nav-links">
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="index.html#works">My works</a></li>
+      <li><a href="index.html#clients">My clients</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" id="mobileMenuClose">
+    <i class="fa-solid fa-xmark"></i>
+  </button>
+  <ul class="mobile-nav-links">
+    <li><a href="index.html#home">Home</a></li>
+    <li><a href="index.html#works">My works</a></li>
+    <li><a href="index.html#clients">My clients</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <main class="contact-page">
+    <div class="container contact-wrap">
+      <h2 class="contact-heading">GET IN TOUCH</h2>
+<div class="form-line"></div>
+<p class="contact-tagline">Supposed to be saving lives, but currently saving files 👀</p>
+
+      <form class="contact-form">
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your secret identity">
+          </div>
+
+          <div class="field">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" placeholder="I promise I won't spam you">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Your message goes here. Ask me anything"></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Email →</button>
+      </form>
+
+      <div class="email-divider"></div>
+
+      <div class="email-row">
+        <div class="email-box">
+          <i class="fa-solid fa-envelope" style="margin-right: 12px;"></i>
+          Email: seliindoris@gmail.com
+        </div>
+        <button class="copy-btn" id="copyEmailBtn" type="button">
+          <i class="fa-regular fa-copy"></i>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="copyright">© 2026, Seliin-Doris Tšinjakov</p>
+
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/sdoriiis/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/seliin-doris-t%C5%A1injakov-66376237a/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://www.youtube.com/@Dor_Sel" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+
+        <a href="https://www.reddit.com/user/Interesting_Rate_161/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Reddit">
+          <i class="fa-brands fa-reddit-alien"></i>
+        </a>
+
+        <a href="https://github.com/Seliin-Doris" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
